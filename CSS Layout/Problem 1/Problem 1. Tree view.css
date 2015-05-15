@@ -1,0 +1,35 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 25px;
+	display: block;
+	width: 200px;
+}
+
+	ul ul {
+		display: none;
+	}
+
+li:hover > ul {
+	padding-left: 20px;
+	display: block;
+}	
+
+a {
+	text-decoration: none;
+	color: #93848d;
+}
+
+	a:hover {
+		text-decoration: underline;
+		color: #93848d;
+	}
+
+ul li.first a {
+	color: #000000;
+}	
+
+ul li:not(.first) a {
+	color: #93848d;
+}
